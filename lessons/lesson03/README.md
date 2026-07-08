@@ -1,8 +1,12 @@
-# Lesson 0.1 - Environment Setup
+# Lesson 03 - Run MySQL with Docker
 
 ## Objective
 
-- Understand Docker
+- Understand docker-compose.yml
+- Understand Service
 - Understand Image
 - Understand Container
-- Prepare environment
+- Understand Ports
+- Understand Environment
+- Understand Volumes
+- Run MySQL using Docker

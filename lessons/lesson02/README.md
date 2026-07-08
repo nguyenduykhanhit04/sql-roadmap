@@ -1,8 +1,8 @@
-# Lesson 0.1 - Environment Setup
+# Lesson 02 - What is Database?
 
 ## Objective
 
-- Understand Docker
-- Understand Image
-- Understand Container
-- Prepare environment
+- Understand Database
+- Understand DBMS
+- Understand SQL
+- Distinguish Database and MySQL

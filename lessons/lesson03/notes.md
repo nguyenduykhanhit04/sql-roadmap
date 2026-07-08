@@ -1,24 +1,64 @@
-# Docker
+# Docker Compose
 
-Docker là nền tảng giúp tạo và quản lý các container.
+## docker-compose.yml
+
+Là file mô tả toàn bộ các service của dự án.
+
+---
+
+## Service
+
+Là một thành phần mà Docker sẽ quản lý.
+
+Ví dụ:
+- mysql
+- redis
+- springboot
+
+---
 
 ## Image
 
-Image giống như bộ cài hoặc bản thiết kế của một ứng dụng.
+Là bản cài (template) để tạo Container.
 
 Ví dụ:
 
 mysql:8.4
 
+---
+
 ## Container
 
-Container là ứng dụng đang chạy được tạo từ Image.
+Là chương trình đang chạy được tạo từ Image.
 
-Một Image có thể tạo nhiều Container.
+---
 
-## Tại sao dùng Docker?
+## Ports
 
-- Không làm bẩn hệ điều hành.
-- Dễ xóa và tạo lại.
-- Tránh xung đột phiên bản.
-- Dễ chia sẻ môi trường làm việc.
+Cú pháp:
+
+HOST_PORT:CONTAINER_PORT
+
+Ví dụ:
+
+3306:3306
+
+Windows sẽ kết nối vào port 3306 của Container.
+
+---
+
+## Environment
+
+Truyền các biến cấu hình vào Container khi khởi động.
+
+Ví dụ:
+
+MYSQL_ROOT_PASSWORD
+
+---
+
+## Volumes
+
+Lưu dữ liệu bên ngoài Container.
+
+Khi xóa Container thì dữ liệu vẫn còn.

@@ -1,24 +1,27 @@
-# Docker
+# Database
 
-Docker là nền tảng giúp tạo và quản lý các container.
-
-## Image
-
-Image giống như bộ cài hoặc bản thiết kế của một ứng dụng.
+Database là nơi lưu trữ dữ liệu có tổ chức.
 
 Ví dụ:
+- Facebook
+- Shopee
+- TikTok
 
-mysql:8.4
+đều dùng Database.
 
-## Container
+---
 
-Container là ứng dụng đang chạy được tạo từ Image.
+# DBMS
 
-Một Image có thể tạo nhiều Container.
+DBMS là phần mềm quản lý Database.
 
-## Tại sao dùng Docker?
+Ví dụ:
+- MySQL
+- PostgreSQL
+- SQL Server
 
-- Không làm bẩn hệ điều hành.
-- Dễ xóa và tạo lại.
-- Tránh xung đột phiên bản.
-- Dễ chia sẻ môi trường làm việc.
+---
+
+# SQL
+
+SQL là ngôn ngữ dùng để giao tiếp với Database.
